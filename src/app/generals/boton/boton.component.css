@@ -1,0 +1,10 @@
+.boton {
+    background-color: var(--rojo);
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: var(--blanco);
+    padding: 20px 100px;
+    text-decoration: none;
+    border-radius: 5px;
+}
