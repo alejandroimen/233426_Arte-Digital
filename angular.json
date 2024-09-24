@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Second-App": {
+    "ProyectoC1": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -23,7 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/second-app",
+            "outputPath": "dist/proyecto-c1",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "Second-App:build:production"
+              "buildTarget": "ProyectoC1:build:production"
             },
             "development": {
-              "buildTarget": "Second-App:build:development"
+              "buildTarget": "ProyectoC1:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -102,5 +102,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "ac9c2340-8ca0-476a-bdbc-6650bf9f24c5"
   }
 }
