@@ -1,0 +1,17 @@
+#queEs {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px;
+    display: flex;
+    align-items: center;justify-content: space-between;
+    box-sizing: border-box;
+}
+#queEs div {
+
+}
+
+#queEs div p {
+    font-size: 18px;
+    text-align: justify;
+    letter-spacing: .5px;
+}

@@ -4,6 +4,8 @@ import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { BannerComponent } from './banner/banner.component';
 import { BotonComponent } from './boton/boton.component';
+import { TituloComponent } from './titulo/titulo.component';
+import { ObraComponent } from './obra/obra.component';
 
 
 @NgModule({
@@ -11,7 +13,9 @@ import { BotonComponent } from './boton/boton.component';
     FooterComponent,
     HeaderComponent,
     BannerComponent,
-    BotonComponent
+    BotonComponent,
+    TituloComponent,
+    ObraComponent
   ],
   imports: [
     CommonModule
@@ -20,7 +24,9 @@ import { BotonComponent } from './boton/boton.component';
     FooterComponent,
     HeaderComponent,
     BannerComponent,
-    BotonComponent
+    BotonComponent,
+    TituloComponent,
+    ObraComponent
   ]
 })
 export class GeneralsModule { }

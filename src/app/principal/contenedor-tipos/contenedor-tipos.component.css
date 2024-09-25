@@ -1,0 +1,56 @@
+.contenedorTipos {
+    display: grid;
+    grid-template-columns: repeat(4, 20vw);
+    grid-template-rows: repeat(4, 20vw);
+    grid-template-areas:
+      "tipo1 tipo1 tipo2 tipo3"
+      "tipo4 tipo4 tipo2 tipo3"
+      "tipo5 tipo6 tipo7 tipo3"
+      "tipo5 tipo6 tipo8 tipo8";
+    gap: 10px;
+  }
+  
+.tipo1 {
+    grid-area: tipo1;/* 
+    background-image: url(../../../../public/assets/images/); */
+}
+.tipo2 {
+    grid-area: tipo2;/* 
+    background-image: url(../../../../public/assets/images/); */
+} 
+.tipo3 {
+    grid-area: tipo3;/* 
+    background-image: url(../../../../public/assets/images/); */
+}
+.tipo4 {
+    grid-area: tipo4;/* 
+    background-image: url(../../../../public/assets/images/); */
+}
+.tipo5 {
+    grid-area: tipo5;/* 
+    background-image: url(../../../../public/assets/images/); */
+}
+.tipo6 {
+    grid-area: tipo6;/* 
+    background-image: url(../../../../public/assets/images/); */
+}
+.tipo7 {
+    grid-area: tipo7;/* 
+    background-image: url(../../../../public/assets/images/); */
+}
+.tipo8 {
+    grid-area: tipo8;/* 
+    background-image: url(../../../../public/assets/images/); */
+}
+
+.contenedorTipos div {
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    background-color: var(--rojo);
+    padding: 20px;
+}
+
+.contenedorTipos div h1 {
+    color: var(--blanco);
+}
